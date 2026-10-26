@@ -120,3 +120,30 @@ li {
         width: 100%;
     }
 }
+
+
+
+
+.newbutton {
+    padding: 14px 22px;
+    border: none;
+    border-radius: 10px;
+    background: #10b981;
+    color: #06281f;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newbutton:hover {
+    background: #34d399;
+    transform: translateY(-2px);
+}
+
+.forli{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
